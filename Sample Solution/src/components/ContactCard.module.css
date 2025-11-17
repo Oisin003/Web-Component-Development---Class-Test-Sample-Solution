@@ -1,0 +1,54 @@
+.card {
+  background: white;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  flex: 1;
+}
+
+.title {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.meta {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.friends {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.actions {
+  margin-left: 12px;
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.viewBtn {
+  background: #2b6cb0;
+  color: white;
+}
+
+.deleteBtn {
+  background: #e53e3e;
+  color: white;
+}
